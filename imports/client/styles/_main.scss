@@ -1,3 +1,10 @@
+$green: #e4ede0;
+$blue: #dfe7ed;
+$red: #eddfdf;
+$green-alt: darken($green, 15%);
+$blue-alt: darken($blue, 15%);
+$red-alt: darken($red, 15%);
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +21,10 @@ body {
   font-size: 1.6rem;
 }
 
+input, button, select {
+  font-size: 1.3rem;
+}
+
 h1 {
   font-weight: 300;
   font-size: 2.4rem;
@@ -23,4 +34,6 @@ h1 {
 @import './components/wrapper';
 @import './components/item';
 @import './components/button';
+@import './components/player';
+@import './components/form';
 
